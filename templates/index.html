@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Ticket Classification</title>
+</head>
+<body>
+    <h1>Ticket Classification</h1>
+    <div class="input-container">
+        <textarea id="ticket-text" placeholder="Enter Ticket Title and Description"></textarea>
+        <button id="classify-button">Classify</button>
+    </div>
+    <div id="result" class="hidden">
+        <h2>Classification Result:</h2>
+        <p id="prediction"></p>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
