@@ -1,26 +1,23 @@
-from flask import Flask, request, render_template
+import streamlit as st
 import pickle
-import joblib
 
-app = Flask(__name)
-vectorizer = joblib.load('vectorizer.pkl')
 # Load your trained model
 with open('your_model.pkl', 'rb') as model_file:
     model = pickle.load(model_file)
+vectorizer = pickle.load('vectorizer.pkl')
+# Create a Streamlit web app
+st.title('Ticket Classification App')
+st.write('Enter the ticket description and click the "Predict" button.')
 
-@app.route('/', methods=['GET', 'POST'])
-def classify_ticket():
-    predicted_class = None
+# Input field for ticket description
+ticket_description = st.text_input('Ticket Description')
 
-    if request.method == 'POST':
-        ticket_description = request.form['ticket_description']
-        
-        statement = vectorizer.transform(ticket_description)
-
-        # Use your model to make predictions
+if st.button('Predict'):
+    if ticket_description:
+        statement=vectorizer.transform(ticket_description)
         predicted_class = model.predict(statement)[0]
 
-    return render_template('index.html', predicted_class=predicted_class)
+        st.write(f'Predicted Class: {predicted_class}')
+    else:
+        st.warning('Please enter a ticket description.')
 
-if __name__ == '__main__':
-    app.run(debug=True)
