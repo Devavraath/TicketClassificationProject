@@ -1,10 +1,10 @@
 import streamlit as st
-import pickle
+import joblib
 
 # Load your trained model
 with open('your_model.pkl', 'rb') as model_file:
-    model = pickle.load(model_file)
-vectorizer = pickle.load('vectorizer.pkl')
+    model = joblib.load(model_file)
+vectorizer = joblib.load('vectorizer.pkl')
 # Create a Streamlit web app
 st.title('Ticket Classification App')
 st.write('Enter the ticket description and click the "Predict" button.')
