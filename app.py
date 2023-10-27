@@ -1,31 +1,26 @@
-from flask import Flask, render_template, request, jsonify
-import joblib
+from flask import Flask, request, render_template
 import pickle
+import joblib
 
-app = Flask(__name__)
+app = Flask(__name)
+vectorizer = joblib.load('vectorizer.pkl')
+# Load your trained model
+with open('your_model.pkl', 'rb') as model_file:
+    model = pickle.load(model_file)
 
-# Load your model and vectorizer
-model = joblib.load('model/your_model.pkl')
-vectorizer = joblib.load('model/vectorizer.pkl')
+@app.route('/', methods=['GET', 'POST'])
+def classify_ticket():
+    predicted_class = None
 
-@app.route('/')
-def home():
-    return render_template('index.html')
-
-@app.route('/classify', methods=['POST'])
-def classify():
     if request.method == 'POST':
-        ticket_text = request.form['ticket_text']
+        ticket_description = request.form['ticket_description']
+        
+        statement = vectorizer.transform(ticket_description)
 
-        # Preprocess the input text using the loaded vectorizer
-        # You may need to adapt this preprocessing to match how the data was preprocessed during training
-        ticket_text = vectorizer.transform([ticket_text])  # Reshape to 2D array
+        # Use your model to make predictions
+        predicted_class = model.predict(statement)[0]
 
-        # Make predictions using your model
-        prediction = model.predict(ticket_text)[0]
-
-        # Return the prediction as JSON
-        return jsonify({'prediction': prediction})
+    return render_template('index.html', predicted_class=predicted_class)
 
 if __name__ == '__main__':
     app.run(debug=True)
