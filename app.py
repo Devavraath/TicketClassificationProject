@@ -8,7 +8,13 @@ vectorizer = joblib.load('vectorizer.pkl')
 # Create a Streamlit web app
 st.title('Ticket Classification App')
 st.write('Enter the ticket description and click the "Predict" button.\n')
-st.image('Categories.jpg', width=300)
+st.markdown(
+    "<div style='text-align: center;'>"
+    "<img src=Categories.jpg' width='400'>"
+    "</div>",
+    unsafe_allow_html=True
+)
+#st.image('Categories.jpg', width=300)
 
 # Input field for ticket description
 ticket_description = st.text_input('Ticket Description')
