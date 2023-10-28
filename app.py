@@ -27,6 +27,6 @@ if st.button('Predict'):
         # Use your model to make predictions
         predicted_class = model.predict(statement)[0]
 
-        st.write(f'Predicted Class: {predicted_class}')
+        st.write(f'Predicted Ticket Category: {predicted_class}')
     else:
         st.warning('Please enter a ticket description.')
