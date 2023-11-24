@@ -1,0 +1,101 @@
+S.No,Ticket Title,Description,Application Name
+1,Software Bug Fix,Investigate and fix software bugs,Software
+2,Email Migration,Migrate email accounts to a new platform,Email
+3,Hardware Upgrade,Upgrade hardware components,Hardware
+4,Security Incident,Respond to and investigate security incidents,Security
+5,Financial Planning,Assist with financial planning and analysis,Accounting
+6,Server Troubleshooting,Resolve server issues and errors,Server
+7,VPN Connection,Troubleshoot and manage VPN connections,Network
+8,HR Recruitment,Assist with employee recruitment processes,HR
+9,Data Cleanup,Clean and organize data repositories,Data
+10,Network Redundancy,Implement network redundancy for reliability,Network
+11,CRM Customization,Customize CRM software to meet needs,CRM
+12,Server Migration,Plan and execute server data migration,Server
+13,Network Monitoring,Monitor network performance and traffic,Network
+14,Database Security,Enhance database security measures,Data
+15,Software Deployment,Deploy software applications,Software
+16,Email Troubleshooting,Diagnose and resolve email issues,Email
+17,Printer Setup,Set up and configure printers,Hardware
+18,Security Assessment,Conduct security assessments and audits,Security
+19,Financial Reporting,Generate financial reports and statements,Accounting
+20,Server Upgrades,Upgrade server hardware and software,Server
+21,VPN Access Request,Request VPN access for remote work,Network
+22,HR Policies,Inquire about HR policies and procedures,HR
+23,Data Backup Strategy,Develop data backup and recovery strategies,Data
+24,Network Optimization,Optimize network infrastructure and performance,Network
+25,Software Integration,Integrate software systems for efficiency,Software
+26,Email Configuration,Configure email settings and troubleshoot,Email
+27,Printer Maintenance,Perform maintenance on office printers,Hardware
+28,Security Training,Provide security training and awareness,Security
+29,Accounting Queries,Assist with accounting queries and requests,Accounting
+30,Server Security,Enhance server security measures,Server
+31,VPN Troubleshooting,Troubleshoot VPN connection issues,Network
+32,HR Onboarding,Onboard new employees and provide training,HR
+33,Data Privacy,Ensure compliance with data privacy regulations,Data
+34,Network Troubleshooting,Resolve network issues and connectivity,Network
+35,Software Updates,Apply software updates and patches,Software
+36,Email Archiving,Archive and retrieve email data,Email
+37,Printer Configuration,Configure printers for specific tasks,Hardware
+38,Security Policy,Enforce security policies and guidelines,Security
+39,Budget Analysis,Analyze departmental budgets and expenses,Accounting
+40,Server Backup,Regularly back up server data,Server
+41,VPN Connection,Troubleshoot VPN connections and access,Network
+42,HR Benefits,Manage employee benefits and inquiries,HR
+43,Data Access Request,Handle requests for data access and retrieval,Data
+44,Network Expansion,Expand network infrastructure for growth,Network
+45,CRM Support,Provide support for CRM software,CRM
+46,Server Maintenance,Perform routine server maintenance tasks,Server
+47,Database Optimization,Optimize database performance and queries,Data
+48,Software Training,Conduct software training sessions,Software
+49,Email Filtering,Configure email filters and rules,Email
+50,Printer Repair,Arrange printer repairs and maintenance,Hardware
+51,Security Compliance,Ensure compliance with security standards,Security
+52,Tax Software Updates,Apply updates to tax software,Accounting
+53,Server Configuration,Configure server settings and roles,Server
+54,Network Security,Implement network security measures,Network
+55,Software Bug Fix,Investigate and fix software bugs,Software
+56,Email Migration,Migrate email accounts to a new platform,Email
+57,Hardware Upgrade,Upgrade hardware components,Hardware
+58,Security Incident,Respond to and investigate security incidents,Security
+59,Financial Planning,Assist with financial planning and analysis,Accounting
+60,Server Troubleshooting,Resolve server issues and errors,Server
+61,VPN Connection,Troubleshoot and manage VPN connections,Network
+62,HR Recruitment,Assist with employee recruitment processes,HR
+63,Data Cleanup,Clean and organize data repositories,Data
+64,Network Redundancy,Implement network redundancy for reliability,Network
+65,CRM Customization,Customize CRM software to meet needs,CRM
+66,Server Migration,Plan and execute server data migration,Server
+67,Network Monitoring,Monitor network performance and traffic,Network
+68,Database Security,Enhance database security measures,Data
+69,Software Deployment,Deploy software applications,Software
+70,Email Troubleshooting,Diagnose and resolve email issues,Email
+71,Printer Setup,Set up and configure printers,Hardware
+72,Security Assessment,Conduct security assessments and audits,Security
+73,Financial Reporting,Generate financial reports and statements,Accounting
+74,Server Upgrades,Upgrade server hardware and software,Server
+75,VPN Access Request,Request VPN access for remote work,Network
+76,HR Policies,Inquire about HR policies and procedures,HR
+77,Data Backup Strategy,Develop data backup and recovery strategies,Data
+78,Network Optimization,Optimize network infrastructure and performance,Network
+79,Software Integration,Integrate software systems for efficiency,Software
+80,Email Configuration,Configure email settings and troubleshoot,Email
+81,Printer Maintenance,Perform maintenance on office printers,Hardware
+82,Security Training,Provide security training and awareness,Security
+83,Accounting Queries,Assist with accounting queries and requests,Accounting
+84,Server Security,Enhance server security measures,Server
+85,VPN Troubleshooting,Troubleshoot VPN connection issues,Network
+86,HR Onboarding,Onboard new employees and provide training,HR
+87,Data Privacy,Ensure compliance with data privacy regulations,Data
+88,Network Troubleshooting,Resolve network issues and connectivity,Network
+89,Software Updates,Apply software updates and patches,Software
+90,Email Archiving,Archive and retrieve email data,Email
+91,Printer Configuration,Configure printers for specific tasks,Hardware
+92,Security Policy,Enforce security policies and guidelines,Security
+93,Budget Analysis,Analyze departmental budgets and expenses,Accounting
+94,Server Backup,Regularly back up server data,Server
+95,VPN Connection,Troubleshoot VPN connections and access,Network
+96,HR Benefits,Manage employee benefits and inquiries,HR
+97,Data Access Request,Handle requests for data access and retrieval,Data
+98,Network Expansion,Expand network infrastructure for growth,Network
+99,CRM Support,Provide support for CRM software,CRM
+100,Server Maintenance,Perform routine server maintenance tasks,Server
